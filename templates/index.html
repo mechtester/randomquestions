@@ -92,6 +92,19 @@
     .sample-link a:hover {
       color: #45a049;
     }
+
+    /* Custom styling for the note section */
+    .note-section {
+      margin-top: 30px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #555;
+    }
   </style>
 </head>
 
@@ -110,8 +123,13 @@
     <div class="sample-link">
       <a href="https://github.com/mechtester/randomquestions/raw/main/Sample%20Template.xlsx">Download Sample Template</a>
     </div>
-        <div class="sample-link">
+    <div class="sample-link">
       <a href="https://github.com/mechtester/randomquestions">Github Repository</a>
+    </div>
+
+    <!-- Note section -->
+    <div class="note-section">
+      <p class="note">Note: If questions and answers do not appear clearly, please clear your browser's cookies and caches. Then start the application again.</p>
     </div>
   </div>
 
@@ -134,7 +152,6 @@
       document.getElementById('fileNameSpan').textContent = fileName;
     }
   </script>
-
 </body>
 
 </html>
