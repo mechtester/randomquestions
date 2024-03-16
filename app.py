@@ -2,6 +2,27 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import pandas as pd
 import zlib
 
+
+import threading  # Import the threading module
+
+app = Flask(__name__, static_url_path='/static')
+app.secret_key = 'your_secret_key'  # Set a secret key for session management
+
+# Define the function to open the browser URL
+def open_browser():
+    import webbrowser
+    # URL of your Flask app
+    app_url = 'http://127.0.0.1:5000/'
+    # Open the URL in the default web browser
+    webbrowser.open(app_url)
+
+# Create a thread to open the browser URL
+thread = threading.Thread(target=open_browser)
+# Start the thread
+thread.start()
+
+
+
 app = Flask(__name__, static_url_path='/static')
 app.secret_key = 'your_secret_key'  # Set a secret key for session management
 
@@ -75,4 +96,5 @@ def retrieve_data():
         return 'No data available.'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)
+
