@@ -65,4 +65,5 @@ Contributions are welcome! Please feel free to fork the repository and submit pu
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-You can customize the content according to your project's specifics and add more details as needed. Save this content in a file named README.md in the root directory of your project.
+You can customize the content according to your project's specifics and add more details as needed.
+Save this content in a file named README.md in the root directory of your project.
