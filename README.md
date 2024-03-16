@@ -1,7 +1,8 @@
 ```markdown
 # Random Question Generator
 
-This is a web application for generating random questions and practicing interview scenarios. The application allows users to upload an Excel file containing questions and answers, select a sheet from the file, and then practice answering questions randomly.
+This is a web application for generating random questions and practicing interview scenarios.
+The application allows users to upload an Excel file containing questions and answers, select a sheet from the file, and then practice answering questions randomly.
 
 ## Features
 
