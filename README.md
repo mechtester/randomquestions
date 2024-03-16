@@ -27,19 +27,13 @@ To run the application locally, follow these steps:
    cd randomquestions
    ```
 
-3. Install the required dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the Flask application:
+3. Run the Flask application:
 
    ```bash
    python app.py
    ```
 
-5. Open a web browser and go to http://127.0.0.1:5000/ to access the application.
+4. Open a web browser and go to http://127.0.0.1:5000/ to access the application.
 
 ## Usage
 
