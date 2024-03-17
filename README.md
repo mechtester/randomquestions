@@ -1,10 +1,7 @@
 
-
-```markdown
-
 https://github.com/mechtester/randomquestions/assets/79408923/88ce11aa-9aac-416a-9821-213cd8b1a734
 
-
+```markdown
 # Random Question Generator
 
 This is a web application for generating random questions and practicing interview scenarios.
