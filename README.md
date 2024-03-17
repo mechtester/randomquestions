@@ -48,7 +48,7 @@ To run the application locally, follow these steps:
 
 Download the sample Excel template [here](https://github.com/mechtester/randomquestions/raw/main/Sample%20Template.xlsx) to see the required format for uploading questions and answers.
 
-Download the sample Question Answers [here](https://github.com/mechtester/randomquestions/raw/main/Sample%20Questions%20Answers.xlsx) to see the required format for uploading questions and answers.
+Download the sample Question Answers [here](https://github.com/mechtester/randomquestions/raw/main/Sample%20Questions%20Answers.xlsx) to see testing.
 
 ## Technologies Used
 
